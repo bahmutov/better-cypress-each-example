@@ -1,5 +1,6 @@
 /// <reference types="cypress" />
 
+// https://github.com/bahmutov/cypress-recurse
 import { each } from 'cypress-recurse'
 
 it('stops when it sees 7 using each from cypress-recurse', () => {

@@ -9,6 +9,7 @@ Spec | Description
 [spec02.js](./cypress/integration/spec02.js) | Clicks on the button and waits for the cell to reveal its number
 [spec03.js](./cypress/integration/spec03.js) | Stops the `cy.each` execution from a synchronous callback by returning `false`
 [spec04.js](./cypress/integration/spec04.js) | Stops the `cy.each` execution when it finds the number 7
+[spec05.js](./cypress/integration/spec05.js) | Uses `each` from [cypress-recurse](https://github.com/bahmutov/cypress-recurse) to iterate and stop when it sees the number 7
 <!-- prettier-ignore-end -->
 
 ## Videos
@@ -19,6 +20,7 @@ These videos are in the YouTube Playlist "[Advanced cy.each Examples](https://ww
 - [How To Stop cy.each Iterations For Simple Cases](https://youtu.be/lhb5Lt9RwE4)
 - [Stop cy.each Iteration When Using Cypress Commands Inside The Callback Function](https://youtu.be/G4xs9_cAm2c)
 - [Cy.each Yields The Original Subject](https://youtu.be/DyPr8Dq9D58)
+- [Use each Function From cypress-recurse Plugin To Iterate And Stop](https://youtu.be/a-LErnTG1lU)
 
 ## Small print
 
