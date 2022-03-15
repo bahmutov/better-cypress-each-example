@@ -9,6 +9,10 @@ Spec | Description
 [spec02.js](./cypress/integration/spec02.js) | Clicks on the button and waits for the cell to reveal its number
 <!-- prettier-ignore-end -->
 
+## Videos
+
+- [Iterate Over Table Rows And Click A Button In Each Row Using cy.each Command](https://youtu.be/M0RxEeJaq_E)
+
 ## Small print
 
 Author: Gleb Bahmutov &lt;gleb.bahmutov@gmail.com&gt; &copy; 2022
