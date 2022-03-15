@@ -2,6 +2,8 @@
 
 > Playing with `cy.each` command
 
+![Click on each button until the table cell next to it shows number 7](./images/each.png)
+
 <!-- prettier-ignore-start -->
 Spec | Description
 ---|---
@@ -22,6 +24,7 @@ These videos are in the YouTube Playlist "[Advanced cy.each Examples](https://ww
 - [Stop cy.each Iteration When Using Cypress Commands Inside The Callback Function](https://youtu.be/G4xs9_cAm2c)
 - [Cy.each Yields The Original Subject](https://youtu.be/DyPr8Dq9D58)
 - [Use each Function From cypress-recurse Plugin To Iterate And Stop](https://youtu.be/a-LErnTG1lU)
+- [Overwrite The cy.each Command](https://youtu.be/8LcTNeILQtQ)
 
 ## Small print
 
