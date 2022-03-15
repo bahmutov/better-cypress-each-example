@@ -10,6 +10,7 @@ Spec | Description
 [spec03.js](./cypress/integration/spec03.js) | Stops the `cy.each` execution from a synchronous callback by returning `false`
 [spec04.js](./cypress/integration/spec04.js) | Stops the `cy.each` execution when it finds the number 7
 [spec05.js](./cypress/integration/spec05.js) | Uses `each` from [cypress-recurse](https://github.com/bahmutov/cypress-recurse) to iterate and stop when it sees the number 7
+[spec06.js](./cypress/integration/spec06.js) | Overwrites the `cy.each` command to use the `each` function from [cypress-recurse](https://github.com/bahmutov/cypress-recurse) plugin
 <!-- prettier-ignore-end -->
 
 ## Videos
