@@ -1,0 +1,28 @@
+{
+  "name": "better-cypress-each-example",
+  "version": "1.0.0",
+  "description": "Playing with cy.each command",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/better-cypress-each-example.git"
+  },
+  "keywords": [
+    "cypress-example"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bahmutov/better-cypress-each-example/issues"
+  },
+  "homepage": "https://github.com/bahmutov/better-cypress-each-example#readme",
+  "devDependencies": {
+    "cypress": "^9.5.2",
+    "prettier": "^2.5.1"
+  }
+}
