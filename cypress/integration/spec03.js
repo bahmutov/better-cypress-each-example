@@ -2,13 +2,17 @@
 
 it('cy.each stops iteration when returning false', () => {
   const fruits = ['apples', 'bananas', 'oranges', 'pears']
-  cy.wrap(fruits).each((fruit, k) => {
-    console.log(k, fruit)
-    if (k === 2) {
-      return false
-    }
-    cy.log('fruit', fruit)
-  })
+  cy.wrap(fruits)
+    .each((fruit, k) => {
+      console.log(k, fruit)
+      if (k === 2) {
+        return false
+      }
+      cy.log('fruit', fruit)
+    })
+    // cy.each yields the original subject
+    // even if you stop the iteration early
+    .should('equal', fruits)
 })
 
 it.skip('stops when it sees 7 (wrong)', () => {

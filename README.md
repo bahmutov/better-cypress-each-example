@@ -18,6 +18,7 @@ These videos are in the YouTube Playlist "[Advanced cy.each Examples](https://ww
 - [Iterate Over Table Rows And Click A Button In Each Row Using cy.each Command](https://youtu.be/M0RxEeJaq_E)
 - [How To Stop cy.each Iterations For Simple Cases](https://youtu.be/lhb5Lt9RwE4)
 - [Stop cy.each Iteration When Using Cypress Commands Inside The Callback Function](https://youtu.be/G4xs9_cAm2c)
+- [Cy.each Yields The Original Subject](https://youtu.be/DyPr8Dq9D58)
 
 ## Small print
 
