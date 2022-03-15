@@ -24,6 +24,7 @@
   "devDependencies": {
     "cypress": "^9.5.2",
     "cypress-command-chain": "^1.1.2",
+    "cypress-recurse": "^1.15.0",
     "prettier": "^2.5.1"
   }
 }
