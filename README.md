@@ -7,11 +7,17 @@ Spec | Description
 ---|---
 [spec01.js](./cypress/integration/spec01.js) | Quickly clicks every button using [cy.each](https://on.cypress.io/each)
 [spec02.js](./cypress/integration/spec02.js) | Clicks on the button and waits for the cell to reveal its number
+[spec03.js](./cypress/integration/spec03.js) | Stops the `cy.each` execution from a synchronous callback by returning `false`
+[spec04.js](./cypress/integration/spec04.js) | Stops the `cy.each` execution when it finds the number 7
 <!-- prettier-ignore-end -->
 
 ## Videos
 
+These videos are in the YouTube Playlist "[Advanced cy.each Examples](https://www.youtube.com/watch?v=FTjWAeCWpHQ&list=PLP9o9QNnQuAaa6uBRY5G9CdOWBcMg2K-r)"
+
 - [Iterate Over Table Rows And Click A Button In Each Row Using cy.each Command](https://youtu.be/M0RxEeJaq_E)
+- [How To Stop cy.each Iterations For Simple Cases](https://youtu.be/lhb5Lt9RwE4)
+- [Stop cy.each Iteration When Using Cypress Commands Inside The Callback Function](https://youtu.be/G4xs9_cAm2c)
 
 ## Small print
 
