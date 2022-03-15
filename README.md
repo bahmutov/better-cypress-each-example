@@ -1,6 +1,13 @@
-# better-cypress-each-example
+# better-cypress-each-example [![ci](https://github.com/bahmutov/better-cypress-each-example/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/bahmutov/better-cypress-each-example/actions/workflows/ci.yml)
 
 > Playing with `cy.each` command
+
+<!-- prettier-ignore-start -->
+Spec | Description
+---|---
+[spec01.js](./cypress/integration/spec01.js) | Quickly clicks every button using [cy.each](https://on.cypress.io/each)
+[spec02.js](./cypress/integration/spec02.js) | Clicks on the button and waits for the cell to reveal its number
+<!-- prettier-ignore-end -->
 
 ## Small print
 
