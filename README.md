@@ -4,6 +4,8 @@
 
 ![Click on each button until the table cell next to it shows number 7](./images/each.png)
 
+Read the blog post [A Better cy.each Iteration](https://glebbahmutov.com/blog/better-cy-each/)
+
 <!-- prettier-ignore-start -->
 Spec | Description
 ---|---
